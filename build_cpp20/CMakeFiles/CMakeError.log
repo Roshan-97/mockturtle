@@ -1,0 +1,34 @@
+Performing C++ SOURCE FILE Test HAS_WNO_gnu-anonymous-struct failed with the following output:
+Change Dir: /home/roshan/Project_LiveHD/mockturtle/build_cpp20/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_16286/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_16286.dir/build.make CMakeFiles/cmTC_16286.dir/build
+gmake[1]: Entering directory '/home/roshan/Project_LiveHD/mockturtle/build_cpp20/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_16286.dir/src.cxx.o
+/usr/bin/c++   -DHAS_WNO_gnu-anonymous-struct -Wno-gnu-anonymous-struct -std=gnu++20 -o CMakeFiles/cmTC_16286.dir/src.cxx.o -c /home/roshan/Project_LiveHD/mockturtle/build_cpp20/CMakeFiles/CMakeTmp/src.cxx
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+cc1plus: note: unrecognized command-line option '-Wno-gnu-anonymous-struct' may have been intended to silence earlier diagnostics
+Linking CXX executable cmTC_16286
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_16286.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_16286.dir/src.cxx.o -o cmTC_16286 
+gmake[1]: Leaving directory '/home/roshan/Project_LiveHD/mockturtle/build_cpp20/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_WNO_nested-anon-types failed with the following output:
+Change Dir: /home/roshan/Project_LiveHD/mockturtle/build_cpp20/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_aa606/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_aa606.dir/build.make CMakeFiles/cmTC_aa606.dir/build
+gmake[1]: Entering directory '/home/roshan/Project_LiveHD/mockturtle/build_cpp20/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_aa606.dir/src.cxx.o
+/usr/bin/c++   -DHAS_WNO_nested-anon-types -Wno-nested-anon-types -std=gnu++20 -o CMakeFiles/cmTC_aa606.dir/src.cxx.o -c /home/roshan/Project_LiveHD/mockturtle/build_cpp20/CMakeFiles/CMakeTmp/src.cxx
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+cc1plus: note: unrecognized command-line option '-Wno-nested-anon-types' may have been intended to silence earlier diagnostics
+Linking CXX executable cmTC_aa606
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa606.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_aa606.dir/src.cxx.o -o cmTC_aa606 
+gmake[1]: Leaving directory '/home/roshan/Project_LiveHD/mockturtle/build_cpp20/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }

@@ -1,0 +1,35 @@
+module(
+    name = "mockturtle_project",
+)
+
+bazel_dep(name = "bazel_skylib", version = "1.4.2")
+
+http_archive = use_repo_rule("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
+
+http_archive(
+    name = "mockturtle",
+    url = "https://github.com/lsils/mockturtle/archive/refs/heads/master.zip",
+    strip_prefix = "mockturtle-master",
+    build_file = "//:mockturtle.BUILD",
+)
+
+http_archive(
+    name = "kitty",
+    url = "https://github.com/msoeken/kitty/archive/refs/heads/master.zip",
+    strip_prefix = "kitty-master",
+    build_file = "//:kitty.BUILD",
+)
+
+http_archive(
+    name = "fmt",
+    url = "https://github.com/fmtlib/fmt/archive/refs/heads/master.zip",
+    strip_prefix = "fmt-master",
+    build_file = "//:fmt.BUILD",
+)
+
+http_archive(
+    name = "parallel_hashmap",
+    url = "https://github.com/greg7mdp/parallel-hashmap/archive/refs/heads/master.zip",
+    strip_prefix = "parallel-hashmap-master",
+    build_file = "//:parallel_hashmap.BUILD",
+)
